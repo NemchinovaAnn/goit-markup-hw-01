@@ -1,0 +1,201 @@
+:root{
+    --ferst-btn-color:#212121;
+    --accent-color:#2196F3;
+    --header-color:#757575;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #E5E5E5;
+    color: #757575;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* -------ШАПКА------ */
+.header-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-special {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.heder-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--ferst-btn-color);
+}
+.header-list :hover, 
+.header-list :focus{
+    color: var(--accent-color); 
+}
+.header-mail{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    color: var(--ferst-btn-color);
+}
+.header-tel{
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    color: var(--ferst-btn-color);
+}
+.adres-list :hover,
+.adres-list :focus {
+    color: var(--accent-color); 
+}
+
+/* --------ОСНОВНОЙ КОНТЕНТ------- */   
+.hero{
+background: #2F303A;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hero-btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.hero-btn :hover {
+    color: var(--accent-color);
+}
+.about-title-list{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--accent-color);
+}
+.about-text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+.make-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--ferst-btn-color);    
+}
+.team-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--ferst-btn-color);
+}
+.team-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--ferst-btn-color);
+}
+.team-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+/* ---------footer------- */
+.footer{
+    background: #2F303A;
+}
+.footer-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-address{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-item{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* -----------Портфолио-------- */
+.menu-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--ferst-btn-color);
+    background-color: #F5F4FA;
+}
+.menu-btn:hover {
+color: #FFFFFF;
+background-color: #2196F3;
+}
+.content-subtitle{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.content-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.83;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
