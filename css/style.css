@@ -4,9 +4,22 @@
     --header-color:#757575;
 }
 body{
-    font-family: "Open Sans", sans-serif;
-    background-color: #E5E5E5;
+    font-family:"Roboto", sans-serif;
+    background-color: #FFFFFF;
     color: #757575;
+}
+p, h1, h2, h3, h4, h5, h5, h6 {
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+img {
+    display: block;
 }
 .list{
     list-style: none;
@@ -14,7 +27,18 @@ body{
 .link{
     text-decoration: none;
 }
+.container{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+outline: 2px solid red;
+}
 /* -------ШАПКА------ */
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .header-logo{
     font-family: Raleway;
     font-style: normal;
@@ -45,19 +69,9 @@ body{
     color: var(--accent-color); 
 }
 .header-mail{
-    position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
     color: var(--ferst-btn-color);
 }
 .header-tel{
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
     color: var(--ferst-btn-color);
 }
 .adres-list :hover,
@@ -67,6 +81,8 @@ body{
 
 /* --------ОСНОВНОЙ КОНТЕНТ------- */   
 .hero{
+    padding-top: 195px;
+    padding-bottom: 205px;
 background: #2F303A;
 }
 
@@ -74,10 +90,10 @@ background: #2F303A;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 .hero-btn{
     font-weight: bold;
@@ -92,7 +108,23 @@ background: #2F303A;
 }
 .hero-btn :hover,
 .hero-btn :focus {
-    color: var(--accent-color);
+    color: #188CE8;  
+}
+.about{
+    padding-top: 89px;
+    padding-bottom: 110px;
+}
+.about-title-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .about-title-list{
     font-weight: bold;
@@ -100,7 +132,8 @@ background: #2F303A;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--accent-color);
+    color: var(--ferst-btn-color);
+    margin-bottom: 10px;
 }
 .about-text{
     font-weight: normal;
@@ -109,41 +142,56 @@ background: #2F303A;
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
+.make{
+    padding-bottom: 94px;
+}
+.make-image{
+    padding-bottom: 94px;
+}
 .make-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
     letter-spacing: 0.03em;
-    color:var(--ferst-btn-color);    
+    color:var(--ferst-btn-color);   
+    padding-bottom: 50px; 
+}
+.team{
+background-color: #F5F4FA;
+padding-top: 94px ;
+padding-bottom: 124px;
 }
 .team-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--ferst-btn-color);
+    margin-bottom: 50px;
+}
+.team-imege{
+    margin-bottom: 50px;
 }
 .team-subtitle{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--ferst-btn-color);
+    margin-bottom: 10px;
 }
 .team-text{
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
 /* ---------footer------- */
 .footer{
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo{
     font-family: Raleway;
@@ -153,13 +201,19 @@ background: #2F303A;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
-.footer-address{
+.footer-map {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 9px;
+}
+.footer-address :hover,
+.footer-address :focus{
+    color: var(--accent-color);
 }
 .footer-item{
     font-weight: normal;
@@ -167,15 +221,17 @@ background: #2F303A;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-
+    margin-bottom: 9px;
 }
-
 /* -----------Портфолио-------- */
+.menu{
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
 .menu-btn{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.26;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--ferst-btn-color);
     background-color: #F5F4FA;
@@ -184,6 +240,9 @@ background: #2F303A;
 .menu-btn:focus {
 color: #FFFFFF;
 background-color: #2196F3;
+}
+.content{
+    padding-bottom: 114px;
 }
 .content-subtitle{
     font-weight: bold;

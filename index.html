@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./css/style.css">
 </head>
-            <!------------ШАПКА------------->
 <body>
+     <!------------ШАПКА------------->
     <header class="header"> 
+        <div class="container">
         <nav class="header-nav">
             <a class="link header-logo" href="/"><span class="logo-special">Web</span>Studio</a>
         <ul class=" list header-list">
@@ -24,18 +26,22 @@
         <ul class=" list adres-list">
               <li> <a class="link header-mail" href="mailto:info@devstudio.com" target="_blank" rel= "noopener noreferrer" >info@devstudio.com</a></li> 
               <li> <a class="link header-tel"  href="tel:+380961111111" target="_blank" rel= "noopener noreferrer" >+38 096 111 11 11</a></li> 
-        </ul>    
+        </ul>   
+        </div> 
     </header>
     <!-------- ОСНОВНОЙ КОНТЕНТ ----------->
     <main>
         <section class="hero"> 
+            <div class="container">
             <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button class="hero-btn" type="button">
                 Заказать услуги
             </button>
+            </div>
         </section>
     <section class="about">
-        <h2 class="about-title">Особенности</h2>
+        <div class="container">
+        <h2 class="about-title-hidden">Особенности</h2>
         <ul class="list about-list">
              <li class="about-item"><h3 class="about-title-list">ВНИМАНИЕ К ДЕТАЛЯМ</h3> 
             <p class="about-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -50,16 +56,20 @@
             <p class="about-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
+    </div>
     </section>
     <section class="make">
+        <div class="container">
         <h2 class="make-title">Чем мы занимаемся</h2>
         <ul class="list make-list">
             <li class="make-image"><img src="./images/we-do1.jpg" alt="работа с компьютером" width="370" height="294"> </li>
             <li class="make-image"><img src="./images/we-do2.jpg" alt="работа с телефоном" width="370" height="294"></li>
             <li class="make-image"><img src="./images/we-do3.jpg" alt="работа с планшетом" width="370" height="294"></li>
         </ul>
+            </div>
     </section>
     <section class="team">
+        <div class="container">
         <h2 class="team-title">Наша команда</h2>
         <ul class="list team-list">
             <li class="team-item">
@@ -83,18 +93,21 @@
                 <p class="team-text">UI Designer</p>
             </li>
         </ul>
+        </div>
     </section>
 </main>
 <!-------------footer------------->
 <footer class="footer">
+    <div class="container">
     <a class="link footer-logo" href="/"><span class="logo-special">Web</span>Studio</a>
     <address class="footer-address">
         <ul class="list footer-list">
-            <li class="list" > <a class="link footer-address" href="https://goo.gl/maps/7V8qDzGipB6XyWxd7" target="_blank" rel= noopener noreferrer>г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li class="list" > <a class="link footer-item" href="mailto:info@example.com" target="_blank" rel= noopener noreferrer>info@example.com</a></li>
-            <li class="list" > <a class="link footer-item" href="tel:+38 099 111 11 11" target="_blank" rel= noopener noreferrer>+38 099 111 11 11</a></li>
+            <li class="list" > <a class="link footer-map" href="https://goo.gl/maps/7V8qDzGipB6XyWxd7" target="_blank" rel= "noopener noreferrer" >г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="list" > <a class="link footer-item" href="mailto:info@example.com" target="_blank" rel= "noopener noreferrer">info@example.com</a></li>
+            <li class="list" > <a class="link footer-item" href="tel:+38 099 111 11 11" target="_blank" rel= "noopener noreferrer">+38 099 111 11 11</a></li>
         </ul>
     </address>
+    </div>
 </footer>
 </body>
 </html>
