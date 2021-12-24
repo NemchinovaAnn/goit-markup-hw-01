@@ -39,6 +39,18 @@ outline: 2px solid red;
     padding-top: 24px;
     padding-bottom: 25px;
 }
+.header-list{
+    display: flex;
+}
+.adres-list{
+    display: flex;
+    margin-left: auto;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
 .header-logo{
     font-family: Raleway;
     font-style: normal;
@@ -47,6 +59,7 @@ outline: 2px solid red;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #000000;
+    margin-right: 93px;
 }
 .logo-special {
     font-family: Raleway;
@@ -63,6 +76,7 @@ outline: 2px solid red;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--ferst-btn-color);
+    margin-right: 50px;
 }
 .header-list :hover, 
 .header-list :focus{
@@ -70,6 +84,7 @@ outline: 2px solid red;
 }
 .header-mail{
     color: var(--ferst-btn-color);
+    margin-right: 50px;
 }
 .header-tel{
     color: var(--ferst-btn-color);
@@ -94,16 +109,24 @@ background: #2F303A;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 30px;
+    text-align: center;
 }
-.hero-btn{
+.hero-btn-item{
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    text-align: center;
+    color:#FFFFFF;
+}
+.hero-btn{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     background-color: var(--accent-color);
 }
 .hero-btn :hover,
@@ -126,6 +149,12 @@ background: #2F303A;
     clip-path: inset(50%);
     margin: -1px;
 }
+.about-item{
+    margin-right: 30px;
+}
+.about-list{
+    display: flex;
+}
 .about-title-list{
     font-weight: bold;
     font-size: 14px;
@@ -145,8 +174,18 @@ background: #2F303A;
 .make{
     padding-bottom: 94px;
 }
+.make-list{
+    display: flex;
+}
 .make-image{
     padding-bottom: 94px;
+    margin: -15px;
+    margin-bottom: -30px;
+}
+.make-image{
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    margin-bottom: 30px;
 }
 .make-title{
     font-weight: bold;
@@ -155,6 +194,7 @@ background: #2F303A;
     letter-spacing: 0.03em;
     color:var(--ferst-btn-color);   
     padding-bottom: 50px; 
+    text-align: center;
 }
 .team{
 background-color: #F5F4FA;
@@ -168,9 +208,20 @@ padding-bottom: 124px;
     letter-spacing: 0.03em;
     color: var(--ferst-btn-color);
     margin-bottom: 50px;
+    text-align: center;
 }
-.team-imege{
+.team-list{
+    display: flex;
     margin-bottom: 50px;
+}
+.team-item{
+    margin: -15px;
+    margin-bottom: -30px;
+}
+.team-item{
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+    margin-bottom: 30px;
 }
 .team-subtitle{
     font-weight: 500;
@@ -228,6 +279,13 @@ padding-bottom: 124px;
     padding-top: 94px;
     padding-bottom: 50px;
 }
+.menu-list{
+    display: flex;
+    justify-content: center;
+}
+.menu-item{
+    margin-right: 8px;
+}
 .menu-btn{
     font-weight: 500;
     font-size: 16px;
@@ -244,6 +302,19 @@ background-color: #2196F3;
 .content{
     padding-bottom: 114px;
 }
+.content-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-item{
+    margin: -15px;
+    margin-bottom: -30px;
+}
+.content-item{
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    margin-bottom: 30px;
+}
 .content-subtitle{
     font-weight: bold;
     font-size: 18px;
@@ -257,6 +328,6 @@ background-color: #2196F3;
     line-height: 1.83;
     letter-spacing: 0.03em;
     color: var(--header-color);
+    margin-bottom: 50px;
 }
-
 
